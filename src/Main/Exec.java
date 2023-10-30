@@ -6,6 +6,6 @@ package Main;
  */
 public class Exec {
     public static void main(String[] args) {
-        Basic.Ejercicio3.Ejercicio3();
+        Basic.Ejercicio4.Ejercicio4();
     }
 }

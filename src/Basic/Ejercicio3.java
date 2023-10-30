@@ -38,13 +38,13 @@ public class Ejercicio3 {
         {
             //En caso de que ingrese un numero, continuara correctamente.
             opcion = scan.nextInt();
-            
         }
         catch(Exception e)
         {
             //En caso de que ingrese algo diferente a un numero, enviara este 
             //mensaje y se detendrá el programa.
             System.out.println("Error, por favor ingresa un valor entero.");
+            System.exit(0);
         }
         
         switch(opcion){
@@ -70,12 +70,14 @@ public class Ejercicio3 {
                 
                 break;
             
-            case 3:
+            case 3: //Salir
+                
                 System.exit(0); //Forza el cierre del programa.
                 break;
                 
             default: //En caso de que ingrese una opcion inexistente (3>x<1)
                 System.out.println("Error, esa opcion no existe.");
+                break;
         }
 
     }
