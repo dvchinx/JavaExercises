@@ -73,7 +73,8 @@ public class Ejercicio3 {
             case 3:
                 System.exit(0); //Forza el cierre del programa.
                 break;
-            default:
+                
+            default: //En caso de que ingrese una opcion inexistente (3>x<1)
                 System.out.println("Error, esa opcion no existe.");
         }
 
