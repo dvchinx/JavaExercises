@@ -12,6 +12,9 @@ Calculate the area of a triangle.
 - Exercise 3:
 Conversion from degrees Celsius to Fahrenheit and vice versa.
 
+- Exercise 4:
+Check if a number is even or odd
+
 - In Development...
 
 **2- Intermediate:**
