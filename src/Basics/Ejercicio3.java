@@ -39,7 +39,8 @@ public class Ejercicio3 {
             //En caso de que ingrese un numero, continuara correctamente.
             opcion = scan.nextInt();
             
-        }catch(Exception e)
+        }
+        catch(Exception e)
         {
             //En caso de que ingrese algo diferente a un numero, enviara este 
             //mensaje y se detendrá el programa.
