@@ -8,6 +8,6 @@ import Basics.*;
  */
 public class Exec {
     public static void main(String[] args) {
-        Ejercicio1.Ejercicio1();
+        Basics.Ejercicio3.Ejercicio3();
     }
 }
