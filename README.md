@@ -13,7 +13,7 @@ Calculate the area of a triangle.
 Conversion from degrees Celsius to Fahrenheit and vice versa.
 
 - Exercise 4:
-Check if a number is even or odd
+Check if a number is even or odd.
 
 - In Development...
 
