@@ -25,5 +25,9 @@ public class Ejercicio2 {
         
         System.out.println("Ingresa el valor de la altura: ");
         altura = scan.nextFloat();
+        
+        int area = (int) ((int) base * altura / cons);
+        System.out.println("El area aproximada del triangulo es: " + area);
+        
     }
 }
