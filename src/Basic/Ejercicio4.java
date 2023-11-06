@@ -11,7 +11,7 @@ public class Ejercicio4 {
     /*
     BASICS -> EJERCICIO 4:
     Verificar si un numero es par o impar.
-    1- Teniendo en cuenta posibles errores de entrada)
+    1- Tener en cuenta posibles errores de entrada.
     2- Debes implementar el uso de try/catch y if o switch.
      */
     

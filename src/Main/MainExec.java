@@ -1,11 +1,13 @@
 package Main;
 
+import static Intermediate.Ejercicio1.Exec.Exec;
+
 /**
  *
  * @author dvchinx_
  */
-public class Exec {
+public class MainExec {
     public static void main(String[] args) {
-        Basic.Ejercicio4.Ejercicio4();
+            Exec();
     }
 }
