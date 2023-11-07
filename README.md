@@ -19,7 +19,7 @@ Check if a number is even or odd.
 
 **2- Intermediate:**
 - Exercise 1:
-Create a basic calculator using Polymorphism and Inheritance
+Create a basic calculator using Polymorphism and Inheritance.
 
 - In Development...
 
