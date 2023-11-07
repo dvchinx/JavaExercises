@@ -1,8 +1,6 @@
 package Intermediate.Ejercicio1;
 
 import java.util.Scanner;
-import Intermediate.Ejercicio1.Suma;
-import Intermediate.Ejercicio1.Resta;
 
 /**
  *
