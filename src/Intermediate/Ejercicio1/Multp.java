@@ -1,18 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package Intermediate.Ejercicio1;
 
 /**
  *
- * @author dvchinx
+ * @author Usuario
  */
-public class Suma {
+public class Multp {
 
     protected float a, b;
 
-    public Suma() {
+    public Multp() {
     }
 
     public int Operacion(float a, float b) {
-        return (int) Math.round(a + b);
+        return (int) Math.round(a * b);
     }
 
     public float getA() {
