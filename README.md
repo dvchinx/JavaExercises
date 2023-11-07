@@ -18,6 +18,9 @@ Check if a number is even or odd.
 - In Development...
 
 **2- Intermediate:**
+- Exercise 1:
+Create a basic calculator using Polymorphism and Inheritance
+
 - In Development...
 
 **3- Advanced:**
