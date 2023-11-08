@@ -8,7 +8,7 @@
 
 3- The result printed by console should be given approximately as *int:(c)*.
 
-*Tener en cuenta: Dar el resultado aproximado usando el método Math.round(float).*
+*Note: To give the approximate result using the method Math.round(float).*
 
 <h2>EXAMPLE:</h2>
 
