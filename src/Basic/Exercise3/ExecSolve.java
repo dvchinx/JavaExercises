@@ -6,14 +6,8 @@ import java.util.Scanner;
  *
  * @author dvchinx
  */
-public class Ejercicio3 {
+public class ExecSolve {
 
-    /*
-    BASICS -> EJERCICIO 3:
-    Conversión de grados Celsius a Fahrenheit y viceversa.
-    1- Teniendo en cuenta posibles errores de entrada)
-    2- Debes implementar el uso de try/catch y if o switch.
-     */
     private static Scanner scan = new Scanner(System.in);
     //Libreria para recibir entrada del usuario.
 
@@ -23,8 +17,8 @@ public class Ejercicio3 {
     private static float cels, fahr;
     //Variables que almacenaran tanto la entrada como la salida de la ecuacion.
 
-    public static void Ejercicio3() {
-
+    public static void main(String[] args) {
+        
         //Se da al usuario la opción de elegir el orden de la conversion.
         System.out.println("===================");
         System.out.println(" Elige una opcion:");
@@ -32,6 +26,7 @@ public class Ejercicio3 {
         System.out.println("1. Celsius -> Fahrenheit.");
         System.out.println("2. Fahrenheit -> Celsius.");
         System.out.println("3. Salir.");
+        System.out.print("-> ");
 
         try {
             //En caso de que ingrese un numero, continuara correctamente.
@@ -57,7 +52,7 @@ public class Ejercicio3 {
 
             case 2: //Fahrenheit -> Celsius
 
-                //Formula: (°F - 32) / 18
+                //Formula: (°F - 32) / 1,8
                 System.out.print("°F = ");
                 fahr = scan.nextFloat();
 
@@ -75,6 +70,7 @@ public class Ejercicio3 {
                 System.out.println("Error, esa opcion no existe.");
                 break;
         }
-
+        
     }
+   
 }
