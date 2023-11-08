@@ -12,8 +12,9 @@
 
 <h2>EJEMPLO:</h2>
 
-**<-Consola->**
+**Consola:**
 
+```
 Ingresa el primer valor (puede ser decimal):
 
 4,2
@@ -23,3 +24,4 @@ Ingresa el segundo valor:
 1,7
 
 El resultado aproximado de la suma es: 6
+```
