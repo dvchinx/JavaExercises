@@ -23,5 +23,5 @@ Enter the second value:
 
 1,7
 
-the approimate result of the sum is: 6
+The approximate result of the sum is: 6
 ```
