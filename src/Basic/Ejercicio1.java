@@ -29,7 +29,7 @@ public class Ejercicio1 {
         System.out.println("Ingresa el segundo valor: ");
         b = scan.nextFloat(); //Almacena la segunda variable como numero flotante (0,n...).
 
-        c = (int) (a + b); //Suma las dos varaibles flotantes y el resultado lo convierte en Entero.
+        c = Math.round(a + b); //Suma las dos varaibles flotantes y las redondea.
         System.out.println("El resultado aproximado de la suma es: " + c);
     }
 }

@@ -17,6 +17,9 @@ public class Ejercicio2 {
 
     private static float base, altura, cons = 2;
     //Area de un Triangulo = Base * Altura / 2
+    
+    private static int area;
+    //Almacena el resultado esperado
 
     public static void Ejercicio2() {
 
@@ -26,7 +29,7 @@ public class Ejercicio2 {
         System.out.println("Ingresa el valor de la altura: ");
         altura = scan.nextFloat(); //Almacenar el valor de la altura como flotante.
 
-        int area = (int) ((int) base * altura / cons);
+        area = Math.round(base * altura / cons);
         //Se realiza la ecuacion para hallar el area, y se da el resultado en entero.
 
         System.out.println("El area aproximada del triangulo es: " + area);
