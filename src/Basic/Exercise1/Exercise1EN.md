@@ -12,8 +12,9 @@
 
 <h2>EXAMPLE:</h2>
 
-**<-Console->**
+**Console:**
 
+```
 Enter the first value (can be decimal):
 
 4,2
@@ -22,4 +23,5 @@ Enter the second value:
 
 1,7
 
-The approximate result of the sum is: 6
+the approimate result of the sum is: 6
+```
