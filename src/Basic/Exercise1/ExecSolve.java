@@ -1,4 +1,4 @@
-package Basic;
+package Basic.Exercise1;
 
 import java.util.Scanner;
 
@@ -6,12 +6,8 @@ import java.util.Scanner;
  *
  * @author dvchinx
  */
-public class Ejercicio1 {
+public class ExecSolve {
 
-    /*
-    BASICS -> EJERCICIO 1:
-    Suma de dos números.
-     */
     private static Scanner scan = new Scanner(System.in);
     //Libreria para recibir entrada del usuario.
 
@@ -21,7 +17,7 @@ public class Ejercicio1 {
     private static int c;
     //Variable resultante de la operacion.
 
-    public static void Ejercicio1() {
+    public static void main(String[] args) {
 
         System.out.println("Ingresa el primer valor (puede ser decimal): ");
         a = scan.nextFloat(); //Almacena la primera variable como numero flotante (0,n...).
@@ -31,5 +27,6 @@ public class Ejercicio1 {
 
         c = Math.round(a + b); //Suma las dos varaibles flotantes y las redondea.
         System.out.println("El resultado aproximado de la suma es: " + c);
+    
     }
 }
