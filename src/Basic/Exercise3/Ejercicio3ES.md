@@ -20,7 +20,7 @@
 
 3- Hacer uso de *try/catch* para posibles errores de entrada del usuario:
 
-* Ingresar un índice que no esté registrado en la lista
+* Ingresar un índice que no esté registrado en la lista.
 
 4- Hacer uso de condicional *switch* o *if*.
 
