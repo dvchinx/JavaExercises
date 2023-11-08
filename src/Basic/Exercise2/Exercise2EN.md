@@ -6,7 +6,7 @@
 
 1- Receive user input with library *Java.Util.Scanner*.
 
-2- User entries should be stored as *float:(base, altura)*
+2- User entries should be stored as *float:(base, height)*
 
 3- Store '2' as a constant integer variable *(int final)*.
 
