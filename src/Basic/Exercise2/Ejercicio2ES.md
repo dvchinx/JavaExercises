@@ -16,6 +16,14 @@
 
 <h2>EJEMPLO:</h2>
 
-**<-Consola->**
+**Consola**
 
-Ingresa el valor de la base
+```
+Ingresa el valor de la base (puede ser decimal):
+2,4
+
+Ingresa el valor de la altura:
+3
+
+El area aproximada del triangulo es: 4
+```
