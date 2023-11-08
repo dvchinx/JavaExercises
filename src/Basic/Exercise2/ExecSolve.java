@@ -6,23 +6,22 @@ import java.util.Scanner;
  *
  * @author dvchinx
  */
-public class Ejercicio2 {
+public class ExecSolve {
 
-    /*
-    BASICS -> EJERCICIO 2:
-    Calcular el área de un triangulo.
-     */
     private static Scanner scan = new Scanner(System.in);
     //Libreria para recibir entrada del usuario
 
-    private static float base, altura, cons = 2;
+    private static float base, altura;
     //Area de un Triangulo = Base * Altura / 2
+
+    private static final int cons = 2;
+    //Creacion de constante
     
     private static int area;
     //Almacena el resultado esperado
 
-    public static void Ejercicio2() {
-
+    public static void main(String[] args) {
+    
         System.out.println("Ingresa el valor de la base: ");
         base = scan.nextFloat(); //Almacenar el valor de la base como flotante.
 
@@ -33,6 +32,7 @@ public class Ejercicio2 {
         //Se realiza la ecuacion para hallar el area, y se da el resultado en entero.
 
         System.out.println("El area aproximada del triangulo es: " + area);
-
+        
     }
+    
 }
