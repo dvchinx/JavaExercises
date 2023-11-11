@@ -1,18 +1,18 @@
-package Intermediate.Ejercicio1;
+package Intermediate.Exercise1;
 
 /**
  *
  * @author dvchinx
  */
-public class Resta {
+public class Div {
 
     protected float a, b;
 
-    public Resta() {
+    public Div() {
     }
 
     public int Operacion(float a, float b) {
-        return (int) Math.round(a - b);
+        return (int) Math.round(a / b);
     }
 
     public float getA() {
