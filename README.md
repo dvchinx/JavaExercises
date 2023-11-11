@@ -24,4 +24,7 @@ Create a basic calculator using Polymorphism and Inheritance.
 - In Development...
 
 **3- Advanced:**
+- Exercise 1:
+Create a system of bank accounts using Hash and HashMap.
+
 - In Development...
