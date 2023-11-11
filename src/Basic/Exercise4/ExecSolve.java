@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author dvchinx
  */
-public class Ejercicio4 {
+public class ExecSolve {
 
     /*
     BASICS -> EJERCICIO 4:
