@@ -55,7 +55,6 @@ public class Exec {
                 try {
                 System.out.print("Ingresa un nombre de usuario: ");
                     titular = scan.next();
-                    // Crear una nueva instancia de la clase MiClase
                 objCuenta = new Cuenta(titular);
                     instancias.put(titular, objCuenta);
 
@@ -118,7 +117,7 @@ public class Exec {
                 System.out.print("-Fondos Actuales: "+objBuscar.getFondos()+"-");
                 main(args);
                 }catch(Exception e){
-                    System.out.print("Error.");
+                    System.out.print("\nError.");
                 }
                 break;
 
