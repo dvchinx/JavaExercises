@@ -8,12 +8,6 @@ import java.util.Scanner;
  */
 public class ExecSolve {
 
-    /*
-    BASICS -> EJERCICIO 4:
-    Verificar si un numero es par o impar.
-    1- Tener en cuenta posibles errores de entrada.
-    2- Debes implementar el uso de try/catch y if o switch.
-     */
     private static Scanner scan = new Scanner(System.in);
     //Libreria para recibir entrada del usuario.
 
