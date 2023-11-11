@@ -1,4 +1,4 @@
-package Basic.Exercise4;
+package Basic.Exercise3.SolutionES;
 
 import java.util.Scanner;
 
@@ -11,24 +11,26 @@ public class ExecSolve {
     private static Scanner scan = new Scanner(System.in);
     //Libreria para recibir entrada del usuario.
 
-    private static int opcion, num;
-    //Variable que almacena la opcion elegida por el usuario.
-    //Variable que almacena el numero a verificar si es par/impar. 
-    
+    private static int opcion;
+    //Variable que almace el orden de la conversion.
+
+    private static float cels, fahr;
+    //Variables que almacenaran tanto la entrada como la salida de la ecuacion.
+
     public static void main(String[] args) {
-        //Se da al usuario la opción de verificar si es par o impar.
+        
+        //Se da al usuario la opción de elegir el orden de la conversion.
         System.out.println("===================");
         System.out.println(" Elige una opcion:");
         System.out.println("===================");
-        System.out.println("1. Verificar si es par.");
-        System.out.println("2. Verificar si es impar.");
+        System.out.println("1. Celsius -> Fahrenheit.");
+        System.out.println("2. Fahrenheit -> Celsius.");
         System.out.println("3. Salir.");
         System.out.print("-> ");
 
         try {
             //En caso de que ingrese un numero, continuara correctamente.
             opcion = scan.nextInt();
-
         } catch (Exception e) {
             //En caso de que ingrese algo diferente a un numero, enviara este 
             //mensaje y se detendrá el programa.
@@ -37,39 +39,38 @@ public class ExecSolve {
         }
 
         switch (opcion) {
+            case 1: //Celsius -> Fahrenheit
 
-            case 1: //Verificar si es par
+                //Formula: (°C * 1,8) + 32
+                System.out.print("°C = ");
+                cels = scan.nextFloat();
 
-                System.out.print("Ingresa el valor a verificar: ");
-                num = scan.nextInt();
+                fahr = (cels * 1.8f) + 32;
+                System.out.print("°F = " + fahr);
 
-                if (num % 2 == 0) {
-                    System.out.println("El número es par.");
-                } else {
-                    System.out.println("El número no es par (es impar).");
-                }
                 break;
 
-            case 2: //Verificar si es impar
+            case 2: //Fahrenheit -> Celsius
 
-                System.out.print("Ingresa el valor a verificar:");
-                num = scan.nextInt();
+                //Formula: (°F - 32) / 1,8
+                System.out.print("°F = ");
+                fahr = scan.nextFloat();
 
-                if (num % 2 != 0) {
-                    System.out.println("El número es impar.");
-                } else {
-                    System.out.println("El número no es impar (es par).");
-                }
+                cels = (fahr - 32) / 1.8f;
+                System.out.print("°C = " + cels);
+
                 break;
 
             case 3: //Salir
-                System.exit(0);
+
+                System.exit(0); //Forza el cierre del programa.
                 break;
 
             default: //En caso de que ingrese una opcion inexistente (3>x<1)
                 System.out.println("Error, esa opcion no existe.");
                 break;
         }
+        
     }
-
+   
 }
