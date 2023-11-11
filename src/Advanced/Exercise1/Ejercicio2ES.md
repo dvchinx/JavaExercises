@@ -21,7 +21,9 @@
 * Ingresar un índice que no esté registrado en la lista.
 * Ingresar valores no esperados al realizar las operaciones.
 
-*Tener en cuenta: Una vez realizado un proceso, desplegar nuevamente el listado.*
+*Tener en cuenta:*
+* *Una vez realizado un proceso, desplegar nuevamente el listado.*
+* *Uso obligatorio de Map y HashMap para la creación de varias cuentas.*
 
 <h2>EJEMPLO:</h2>
 
@@ -38,7 +40,21 @@
 5. Salir.
 -> 1
 Ingresa un nombre de usuario: dvchinx
-Ingresa fondos (opcional): 0
+Ingresa fondos (opcional): 10
+-Cuenta Creada con Éxito-
+-Fondos Actuales: 10-
+
+===================
+ Elige una opcion:
+===================
+1. Crear cuenta.
+2. Ver fondos.
+3. Agregar fondos.
+4. Retirar fondos.
+5. Salir.
+-> 1
+Ingresa un nombre de usuario: accMel
+Ingresa fondos (opcional): 250,5
 -Cuenta Creada con Éxito-
 -Fondos Actuales: 0-
 
@@ -51,8 +67,8 @@ Ingresa fondos (opcional): 0
 4. Retirar fondos.
 5. Salir.
 -> 2
-Ingresa tu nombre de usuario: dvchinx
--Fondos Actuales: 0-
+Ingresa tu nombre de usuario: accMel
+-Fondos Actuales: 250,5-
 
 ===================
  Elige una opcion:
@@ -66,6 +82,7 @@ Ingresa tu nombre de usuario: dvchinx
 Ingresa tu nombre de usuario: dvchinx
 Fondos a Agregar: 200
 -Fondos Agregados con Éxito-
+-Fondos Actuales: 210-
 
 ===================
  Elige una opcion:
@@ -76,10 +93,10 @@ Fondos a Agregar: 200
 4. Retirar fondos.
 5. Salir.
 -> 4
-Ingresa tu nombre de usuario: dvchinx
-Fondos a Retirar: 100
+Ingresa tu nombre de usuario: accMel
+Fondos a Retirar: 50,5
 -Fondos Retirados con Éxito-
--Fondos Actuales: 100-
+-Fondos Actuales: 200-
 
 ===================
  Elige una opcion:
