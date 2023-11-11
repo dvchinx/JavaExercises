@@ -1,4 +1,4 @@
-<h2>INTERMEDIO -> EJERCICIO 2</h2>
+<h2>AVANZADO -> EJERCICIO 1</h2>
 
 **SISTEMA DE CUENTA (BANCO):**
 
@@ -56,7 +56,7 @@ Ingresa fondos (opcional): 10
 Ingresa un nombre de usuario: accMel
 Ingresa fondos (opcional): 250,5
 -Cuenta Creada con Éxito-
--Fondos Actuales: 0-
+-Fondos Actuales: 250,5-
 
 ===================
  Elige una opcion:
