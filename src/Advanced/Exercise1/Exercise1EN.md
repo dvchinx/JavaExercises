@@ -1,4 +1,4 @@
-<h2>INTERMEDIATE -> EXERCISE 2</h2>
+<h2>ADVANCED -> EXERCISE 2</h2>
 
 **ACCOUNTING SYSTEM (BANK):**
 
@@ -56,7 +56,7 @@ Enter funds (optional): 10
 Enter a user name: accMel
 Fund your account (optional): 250,5
 -Account Created Successfully -Successfully
--Current Funds: 0-
+-Current Funds: 250,5-
 
 ===================
  Choose an option:
