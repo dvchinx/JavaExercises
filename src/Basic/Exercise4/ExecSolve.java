@@ -6,23 +6,16 @@ import java.util.Scanner;
  *
  * @author dvchinx
  */
-public class Ejercicio4 {
+public class ExecSolve {
 
-    /*
-    BASICS -> EJERCICIO 4:
-    Verificar si un numero es par o impar.
-    1- Tener en cuenta posibles errores de entrada.
-    2- Debes implementar el uso de try/catch y if o switch.
-     */
     private static Scanner scan = new Scanner(System.in);
     //Libreria para recibir entrada del usuario.
 
     private static int opcion, num;
     //Variable que almacena la opcion elegida por el usuario.
     //Variable que almacena el numero a verificar si es par/impar. 
-
-    public static void Ejercicio4() {
-
+    
+    public static void main(String[] args) {
         //Se da al usuario la opción de verificar si es par o impar.
         System.out.println("===================");
         System.out.println(" Elige una opcion:");
@@ -30,6 +23,7 @@ public class Ejercicio4 {
         System.out.println("1. Verificar si es par.");
         System.out.println("2. Verificar si es impar.");
         System.out.println("3. Salir.");
+        System.out.print("-> ");
 
         try {
             //En caso de que ingrese un numero, continuara correctamente.
@@ -46,7 +40,7 @@ public class Ejercicio4 {
 
             case 1: //Verificar si es par
 
-                System.out.print("Ingresa el valor a verificar:");
+                System.out.print("Ingresa el valor a verificar: ");
                 num = scan.nextInt();
 
                 if (num % 2 == 0) {
@@ -76,6 +70,6 @@ public class Ejercicio4 {
                 System.out.println("Error, esa opcion no existe.");
                 break;
         }
-
     }
+
 }

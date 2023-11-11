@@ -8,20 +8,10 @@ import java.util.Scanner;
  */
 public class Exec {
 
-    /*
-    INTERMEDIATE -> EJERCICIO 1:
-    Crear una calculadora básica.
-    1- Usar Polimorfismo y Herencia.
-    2- Usar try/catch e if o switch.
-    3- Crear una clase independiente para cada operacion aritmetica.
-    4- Tener en cuenta posibles errores de entrada.
-    5- Debes permitir hacer suma, resta, multiplicación y división.
-    6- Debe recibir los literales en punto decimal y dar el resultado en entero aproximado.
-     */
-    private static Suma suma = new Suma();
-    private static Resta resta = new Resta();
-    private static Multp multp = new Multp();
-    private static Div div = new Div();
+    private static final Suma suma = new Suma();
+    private static final Resta resta = new Resta();
+    private static final Multp multp = new Multp();
+    private static final Div div = new Div();
 
     private static Scanner scan = new Scanner(System.in);
     //Libreria para recibir entrada del usuario.
@@ -33,16 +23,16 @@ public class Exec {
     private static float a, b;
     //Variables que almacenan los literales de la operacion.
 
-    public static void Exec() {
-
+    public static void main(String[] args) {
         System.out.println("===================");
         System.out.println(" Elige una opcion:");
         System.out.println("===================");
-        System.out.println("1 Sumar.");
+        System.out.println("1. Sumar.");
         System.out.println("2. Restar.");
         System.out.println("3. Multiplicar.");
         System.out.println("4. Dividir.");
         System.out.println("5. Salir.");
+        System.out.print("-> ");
 
         try {
             //En caso de que ingrese un numero, continuara correctamente.
