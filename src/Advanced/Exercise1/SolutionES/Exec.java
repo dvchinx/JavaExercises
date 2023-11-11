@@ -1,4 +1,4 @@
-package Advanced.Exercise1;
+package Advanced.Exercise1.SolutionES;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,18 +1,18 @@
-package Intermediate.Exercise1;
+package Intermediate.Exercise1.SolutionES;
 
 /**
  *
  * @author dvchinx
  */
-public class Multp {
+public class Div {
 
     protected float a, b;
 
-    public Multp() {
+    public Div() {
     }
 
     public int Operacion(float a, float b) {
-        return (int) Math.round(a * b);
+        return (int) Math.round(a / b);
     }
 
     public float getA() {

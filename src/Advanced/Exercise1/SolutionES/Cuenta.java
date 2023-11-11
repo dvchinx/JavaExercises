@@ -1,4 +1,4 @@
-package Advanced.Exercise1;
+package Advanced.Exercise1.SolutionES;
 
 /**
  *
