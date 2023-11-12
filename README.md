@@ -25,7 +25,10 @@ Check if a string is a palindrome or not.
 
 **2- Intermediate:**
 - Exercise 1:
-Create a basic calculator using Polymorphism and Inheritance.
+Create a basic calculator using polymorphism and inheritance.
+
+- Exercise 2:
+Counter of characters in a string using equals() and length().
 
 - In Development...
 
