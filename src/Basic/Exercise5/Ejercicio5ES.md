@@ -11,7 +11,7 @@
 4- Crear un *método:(calcMCD)* que reciba *int:(a, b)* y retorne el resultado.
 
 *Tener en cuenta:*
-* *Usar el algoritmo de Eclides para calcular el MCD.*
+* *Usar el algoritmo de Euclides para calcular el MCD.*
 
 <h2>EJEMPLO:</h2>
 

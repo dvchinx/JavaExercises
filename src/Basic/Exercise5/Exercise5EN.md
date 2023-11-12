@@ -11,7 +11,7 @@
 4- Create a *method:(calcMCD)* that receives *int:(a, b)* and returns the result.
 
 *Take into account:*
-* *Use the Eclides algorithm to calculate the DCM.*
+* *Use the Euclides algorithm to calculate the DCM.*
 
 <h2>EXAMPLE:</h2>
 
