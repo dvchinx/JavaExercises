@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author dvchinx
  */
-public class Exec {
+public class ExecSolve {
 
     private static Scanner scan = new Scanner(System.in);
     //Libreria para recibir entrada del usuario.
