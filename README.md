@@ -30,6 +30,9 @@ Create a basic calculator using polymorphism and inheritance.
 - Exercise 2:
 Counter of characters in a string using equals() and length().
 
+- Exercise 3:
+Calculate a number in the Fibonacci series using recursion.
+
 - In Development...
 
 **3- Advanced:**
